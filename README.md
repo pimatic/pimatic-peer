@@ -1,4 +1,4 @@
-pimatic-plugin-template
+pimatic-peer
 =======================
 
 Personalized for me...

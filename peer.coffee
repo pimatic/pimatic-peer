@@ -7,13 +7,13 @@ module.exports = (env) ->
   assert = env.require 'cassert'
 
 
-  class MyPlugin extends env.plugins.Plugin
+  class PerrtPlugin extends env.plugins.Plugin
 
     init: (app, @framework, @config) =>
       env.logger.info("Hello World")
 
   # ###Finally
   # Create a instance of my plugin
-  myPlugin = new MyPlugin
+  peerPlugin = new PerrtPlugin
   # and return it to the framework.
-  return myPlugin
+  return peerPlugin

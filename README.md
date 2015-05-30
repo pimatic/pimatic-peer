@@ -1,4 +1,4 @@
 pimatic-peer
 =======================
 
-Personalized for me...
+WIP, just for development!

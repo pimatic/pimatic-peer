@@ -1,4 +1,5 @@
-{ "name": "pimatic-peer",
+{
+  "name": "pimatic-peer",
   "description": "The plugin description",
   "author": "Oliver Schneider <oliverschneider89+sweetpi@gmail.com> (http://sweetpi.de)",
   "main": "peer",
@@ -16,6 +17,7 @@
   },
   "configSchema": "peer-config-schema.coffee",
   "dependencies": {
+    "socket.io-client": "^1.3.2"
   },
   "peerDependencies": {
     "pimatic": "0.8.*"
